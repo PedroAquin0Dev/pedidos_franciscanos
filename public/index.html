@@ -10,7 +10,13 @@
   <h1>Pedidos Prontos</h1>
   <input type="text" id="pedidoInput" placeholder="Número do Pedido">
   <button onclick="adicionarPedido()">Adicionar Pedido</button>
+
+  <h2>Todos os Pedidos</h2>
+  <ul id="todosPedidos"></ul>
+
+  <h2>Pedidos Prontos para Retirar</h2>
   <ul id="listaPedidos"></ul>
+
   <script src="/socket.io/socket.io.js"></script>
   <script src="app.js"></script>
 </body>
